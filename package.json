@@ -2,7 +2,7 @@
   "name": "webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "dev": "webpack -w"
   },
@@ -19,6 +19,8 @@
   },
   "dependencies": {
     "core-js": "^3.32.1",
-    "regenerator-runtime": "^0.14.0"
+    "css-loader": "^6.8.1",
+    "regenerator-runtime": "^0.14.0",
+    "style-loader": "^3.3.3"
   }
 }
